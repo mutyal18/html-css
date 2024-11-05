@@ -1,0 +1,25 @@
+body{
+ display: flex; 
+ justify-content: center;  
+ align-items: center;
+ min-height: 100vh;
+ /* background-color: rgb(80, 78, 78); */
+ text-align: center;
+  background-image: url(back.jpg.jpg)
+}
+.container{
+    width: 550px;
+    height: 400px;
+    background-color: rgb(23, 23, 66);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 30px 40px;
+    
+
+}
+.container h1{
+    text-align: center;
+}
+/* .container label{
+    text-align: center;
+} */

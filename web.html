@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <div> 
+      <header>
+      <ul class="sidenav">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <button class="hamburger">&#9776;</button>
+      </header>
+    </div>
+     <style>
+      body{
+  font-family: 'Noto Sans', sans-serif;
+	margin:0;
+	width:100%;
+	height:100vh;
+  	background:#ffffff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+header{
+	width:100%; 
+	background:#ffffff; 
+	height:60px; 
+	line-height:60px;
+	border-bottom:1px solid #dddddd;
+}
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding: 60px 15px 0px 15px;
+  color:#ffffff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.glyphicon-home{
+  color:white; 
+  font-size:1.5em; 
+  margin-top:5px; 
+  margin:0 auto;
+}
+header{display:inline-block; font-size:12px;}
+span{padding-left:20px;}
+a{color:#336699;}
+      body {margin: 0;}
+       div.content{
+        background-color: #f19933;
+       }
+      
+      ul.sidenav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 25%;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+      }
+      
+      ul.sidenav li a {
+        display: block;
+        color: #000000;
+         padding: 8px 16px;
+        text-decoration: none;
+      }
+       
+      ul.sidenav li a.active {
+        background-color: #fcbe13;
+        color: white;
+      }
+      
+      ul.sidenav li a:hover:not(.active) {
+        background-color: #94601d;
+        color: white;
+      }
+      
+      div.content {
+        margin-left: 25%;
+        padding: 1px 16px;
+        height: 1000px;
+      }
+      
+      @media screen and (max-width: 900px) {
+        ul.sidenav {
+          width: 100%;
+          height: auto;
+          position: relative;
+        }
+        
+        ul.sidenav li a {
+          float: left;
+          padding: 15px;
+        }
+        
+        div.content {margin-left: 0;}
+      }
+      
+    
+      @media screen and (max-width: 400px) {
+        ul.sidenav li a {
+          text-align: center;
+          float: none;
+        }
+      }
+      </style>
+      </head>
+      <body>
+
+      
+      <div class="content">
+        <h2>lorem</h2>
+        <p style="background-color: #f1f1f1;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo fugiat dolorem soluta. Libero, pariatur suscipit. Eaque quod, quisquam a quos similique id voluptatem incidunt illum provident modi reiciendis necessitatibus eligendi.</p>
+        <p style="background-color: #f1f1f1;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nulla qui fugit sit voluptate, expedita laborum, incidunt nobis iure dolor minima laudantium optio cumque, iste fugiat exercitationem quas repellendus! Reiciendis.</p>
+        <p style="background-color: #f1f1f1;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt mollitia hic aspernatur odit vel facilis beatae nemo aperiam illum sapiente, modi eveniet aut, nostrum ducimus minus laboriosam. Praesentium, quis amet!</p>
+        <p style="background-color: #f1f1f1;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis modi nam, cum doloremque ullam facere fugiat incidunt repudiandae optio placeat vero, dicta at neque accusamus quasi recusandae nobis debitis sunt?</p>
+      </div>
+      
+      </body>
+      </html>
